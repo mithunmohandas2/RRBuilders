@@ -11,7 +11,7 @@ function Footer() {
                     <div className="md:min-w-[400px] 2xl:min-w-[800px]">
 
                         <div className={`flex justify-center lg:justify-start items-center text-2xl font-semibold gap-3`}>
-                            <img className="w-20" src={logo} alt="Lord's Academy Logo" />
+                            <img className="w-20" src={logo} alt="RR Builders Logo" />
                         </div>
 
                         <div className="flex justify-center lg:justify-start items-center my-3">

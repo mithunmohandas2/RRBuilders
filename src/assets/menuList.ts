@@ -1,10 +1,6 @@
 export const menuList = [
     {
-        name: "Home",
-        link: "/",
-    },
-    {
-        name: "About Us",
+        name: "ABOUT",
         backgroundMain: "/images/menuWallpaper.jpg",
         subMenu: [
             {
@@ -18,24 +14,29 @@ export const menuList = [
         ]
     },
     {
-        name: "Projects",
+        name: "REGIONS",
+        link: "/",
+    },
+    {
+        name: "PROJECTS",
+        link: "/projects",
         subMenu: [
             {
                 name: "Exteriors",
-                link: "exteriors",
+                link: "/projects?filter=exteriors",
             },
             {
                 name: "Interiors",
-                link: "/interiors",
+                link: "/projects?filter=interiors",
             },
         ]
     },
     {
-        name: "Careers",
-        link: "/careers",
+        name: "NEWS",
+        link: "/news",
     },
     {
-        name: "Contact Us",
-        link: "/contact",
+        name: "CAREERS",
+        link: "/careers",
     },
 ]

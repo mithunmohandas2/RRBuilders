@@ -9,7 +9,7 @@ Prerequisites :
 Node.js and npm installed on your system.
 
 Installation :
-1. Clone the repository (CLI): 'git clone https://github.com/mithunmohandas2/LordsAcademy'
+1. Clone the repository (CLI): 'git clone https://github.com/mithunmohandas2/RRBuilders'
 2. Navigate to the project directory
 3. Install dependencies: 'npm install' or 'npm i'
 4. Start the development server: 'npm run dev'

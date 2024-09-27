@@ -14,6 +14,8 @@ export default {
         menubarBg: "#1c2638",
         violetTxt: "#7574a6",
         violetBg: "#565593",
+        golden: "#ca8a04",
+        goldenLight: "#eab308",
       },
       keyframes: {
         flyInTop: {

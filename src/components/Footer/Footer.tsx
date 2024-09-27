@@ -4,7 +4,7 @@ import logo from "/images/logo.png"
 function Footer() {
     return (
         <>
-            <div className="flex flex-col mt-10">
+            <div className="flex flex-col mt-10 border-t-4 border-yellow-400">
 
                 <div className="m-5 xl:mx-20 pb-5 border-b lg:flex">
 
@@ -68,12 +68,12 @@ function Footer() {
                 </div>
 
                 <div className="text-center mx-5 xl:mx-10 opacity-50 text-sm sm:text-md font-thin">
-                    <p >Copyright 2024 Period: 13/07/2024 to 12/07/2028 </p>
-                    <p > 26/02/2022 to 25/02/2026.</p>
+                    <p >Copyright : RR Builders. All Rights Reserved. </p>
+                    {/* <p > 26/02/2022 to 25/02/2026.</p> */}
                 </div>
 
                 <div className="flex w-full justify-end pe-10 my-3 mb-5">
-                    <button className="cursor-pointer bg-gray-500 text-white py-2 px-3 material-symbols-outlined"
+                    <button className="cursor-pointer border-2 border-gray-500 hover:bg-gray-500 hover:text-white py-3 px-3 material-symbols-outlined rounded-full"
                         onClick={() => window.scrollTo(0, 0)}>
                         stat_1
                     </button>

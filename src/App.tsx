@@ -1,4 +1,4 @@
-import Home from "./Pages/Home"
+import Home from "./Pages/HomePage"
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -8,7 +8,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-    
       </Routes>
     </>
   )

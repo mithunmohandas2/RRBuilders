@@ -15,7 +15,7 @@ export const menuList = [
     },
     {
         name: "REGIONS",
-        link: "/",
+        link: "/regions",
     },
     {
         name: "PROJECTS",

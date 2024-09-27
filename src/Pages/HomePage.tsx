@@ -1,13 +1,14 @@
 import Footer from "../components/Footer/Footer"
 import Header from "../components/Header/Header"
+import BannerVideo from "../components/HomePageComponents/BannerVideo"
 
 function Home() {
   return (
-    <div className="min-h-screen">
-      <Header/>
-
+    <>
+      <Header />
+      <BannerVideo />
       <Footer />
-    </div>
+    </>
   )
 }
 
